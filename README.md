@@ -2,9 +2,12 @@
 
 ## Project Overview
 
-Astrovigya is a comprehensive astrology platform designed to provide users with personalized astrology services and spiritual guidance through modern digital experiences. The platform enables users to connect with astrologers via chat and audio consultations, book online puja sessions through Google Meet, purchase astrology-related products, access detailed Kundli reports, explore matchmaking services, and learn through dedicated astrology courses.
+Astrovigya is a comprehensive digital astrology platform designed to provide users with personalized astrology services, spiritual guidance, and learning experiences through a modern and accessible ecosystem. The platform consists of two dedicated applications:
 
-By combining traditional astrology with modern technology, Astrovigya creates an all-in-one ecosystem that supports users in their spiritual journey while making astrology services more accessible and convenient.
+- **Astrovigya User App** – Designed for users seeking astrology consultations, puja services, astrology products, matchmaking insights, and educational content.
+- **Astrovigya Astrologer App** – Designed specifically for astrologers to manage consultations, availability, earnings, reports, and professional activities.
+
+The platform connects users and astrologers through real-time communication while integrating traditional astrology practices with modern technologies. Through personalized consultations, online spiritual sessions, integrated commerce, and learning resources, Astrovigya delivers a complete digital astrology experience.
 
 ---
 
@@ -12,111 +15,157 @@ By combining traditional astrology with modern technology, Astrovigya creates an
 
 ### User-Centric Design
 
-- Designed an intuitive and organized interface for smooth navigation across consultations, eCommerce, astrology charts, and learning modules.
-- Focused on simplifying user journeys while minimizing complexity despite multiple service offerings.
+- Designed intuitive interfaces for both users and astrologers.
+- Simplified navigation across multiple services while maintaining a seamless experience.
+- Focused on reducing complexity despite the platform’s broad range of offerings.
+
+### Dedicated Experience for Astrologers
+
+- Built specialized workflows for astrologers to manage consultations and services efficiently.
+- Reduced administrative work and improved productivity.
 
 ### Enhanced Consultation Experience
 
-- Integrated real-time chat and audio consultations with astrologers.
-- Enabled Google Meet integration for booking and conducting online puja sessions.
+- Integrated real-time chat and audio communication.
+- Enabled remote puja sessions using Google Meet integration.
 
-### Comprehensive Astrology Services
+### Comprehensive Astrology Ecosystem
 
-- Developed personalized astrology features such as Kundli reports and matchmaking analysis.
-- Provided users with astrology insights, predictions, and remedies.
+- Combined astrology consultations, Kundli generation, matchmaking, educational content, and eCommerce services into one platform.
 
-### Integrated eCommerce Platform
+### Secure & Scalable Infrastructure
 
-- Built an in-app marketplace for astrology and spiritual products.
-- Enabled secure and seamless purchase experiences.
-
-### Educational Learning Platform
-
-- Designed a dedicated section for astrology courses.
-- Allowed users to explore topics and access learning content directly within the application.
+- Built scalable backend architecture for performance and reliability.
+- Leveraged cloud infrastructure for secure storage and high availability.
 
 ---
 
 ## Key Features
 
-### Astrology Consultations
+### User Application Features
 
 Users can:
 
-- Consult astrologers through chat
-- Connect via audio calls
-- Receive personalized advice and predictions
+- Consult astrologers through chat and audio calls
+- Book online puja sessions
+- Generate Kundli reports
+- Access matchmaking services
+- Purchase spiritual products
+- Explore astrology courses
+- Track consultation history
+- Manage profiles and activity
 
-### Google Meet Puja Booking
+### Astrologer Application Features
+
+Astrologers can:
+
+- Manage consultation requests
+- Conduct chat and audio sessions
+- Set availability for puja services
+- View consultation history
+- Track earnings and reports
+- Manage schedules and appointments
+- Update profiles and service details
+
+### Astrology Consultation System
+
+Features include:
+
+- Real-time chat consultations
+- Audio call sessions
+- Personalized astrology guidance
+- Consultation tracking
+
+### Google Meet Puja Sessions
 
 Users can:
 
 - Book astrologers for puja sessions
-- Attend rituals remotely through Google Meet
-- Schedule spiritual sessions conveniently
+- Attend rituals remotely
+- Schedule online spiritual services
 
 ### Personalized Astrology Services
 
-#### Kundli
+#### Kundli Reports
 
 Users can:
 
 - Generate birth charts
-- Access personalized astrological reports
-- View detailed predictions
+- View personalized predictions
+- Access astrology insights
 
 #### Matchmaking
 
 Users can:
 
-- Check compatibility based on astrological data
-- Explore relationship and marriage matching insights
+- Analyze compatibility
+- Explore relationship insights
+- Access marriage matching reports
 
-### eCommerce Store
-
-Users can:
-
-- Browse astrology-related products
-- Purchase stones, malas, and spiritual accessories
-- Manage product orders within the app
-
-### Astrology Courses
+### eCommerce Platform
 
 Users can:
 
-- Explore available courses
-- View course descriptions
-- Access learning materials
-- Track educational progress
+- Browse spiritual products
+- Purchase stones and malas
+- Manage product orders
 
-### User Dashboard
+### Astrology Learning Platform
 
-Users have quick access to:
+Users can:
 
-- Consultation history
-- Astrology charts
-- Course progress
-- Personal profile information
+- Explore available astrology courses
+- View detailed course information
+- Access learning content
+- Track course progress
+
+### Earnings & Reporting Dashboard
+
+Astrologers can monitor:
+
+- Consultation earnings
+- Puja service income
+- Total revenue
+- Consultation activity
+- Service reports
+
+### Notifications & Engagement
+
+Implemented notifications for:
+
+- Consultation reminders
+- Booking updates
+- Puja schedules
+- Payment confirmations
+- Activity alerts
 
 ---
 
 ## Our Challenges
 
-### Integrating Multiple Services
+### Managing Multiple Services
 
-Combining consultations, eCommerce functionality, astrology tools, and educational content into a single platform while maintaining performance and usability.
+Combining consultations, astrology tools, eCommerce functionality, learning content, and astrologer management into a unified ecosystem.
 
 ### Real-Time Communication
 
-Ensuring smooth and uninterrupted chat and audio consultations across varying network conditions.
+Maintaining smooth chat and audio consultations under varying network conditions.
 
-### User Engagement
+### Availability & Scheduling
 
-Designing an experience that encourages users to engage with multiple features without overwhelming them.
+Ensuring astrologers could dynamically manage schedules and avoid booking conflicts.
 
 ### Secure Transactions
 
-Ensuring secure payments and transaction processing for products and service bookings.
+Implementing secure payment processing for consultations, products, and spiritual services.
+
+### User Engagement
+
+Designing workflows that encourage users to interact with multiple services without overwhelming the experience.
+
+### Scalability
+
+Building infrastructure capable of handling increasing users, astrologers, and content volume.
 
 ---
 
@@ -126,13 +175,14 @@ Ensuring secure payments and transaction processing for products and service boo
 
 - React Native
 - Redux
+- Context API
 - NativeBase
 
 ### Backend
 
 - Node.js
 - MongoDB
-- RESTful APIs
+- REST APIs
 - AWS EC2
 
 ### Real-Time Communication
@@ -140,14 +190,13 @@ Ensuring secure payments and transaction processing for products and service boo
 - Agora SDK (Chat & Audio Calls)
 - Google Meet Integration
 
-### eCommerce & Payments
+### Payments
 
 - PayU Money
-- Stripe
 
 ### Courses Management
 
-- Content Management System (CMS)
+- CMS Integration
 
 ### Cloud Infrastructure
 
@@ -155,28 +204,36 @@ Ensuring secure payments and transaction processing for products and service boo
 - AWS EC2
 - AWS Elastic Load Balancer
 
+### Analytics
+
+- Firebase Analytics
+
 ---
 
 ## Analytics Implementation
 
-To understand user behavior and improve application performance, analytics tracking was implemented across major user activities.
-
-Tracked events include:
+To understand user behavior and improve platform performance, analytics tracking was implemented across both applications.
 
 ### Consultation Activity
 
+Tracks:
+
 - Consultation booked
-- Audio call started
 - Chat session initiated
+- Audio call started
 - Consultation completed
 
 ### Astrology Activity
 
+Tracks:
+
 - Kundli generated
-- Matchmaking analysis viewed
+- Matchmaking viewed
 - Horoscope viewed
 
 ### eCommerce Activity
+
+Tracks:
 
 - Product viewed
 - Product added to cart
@@ -185,11 +242,23 @@ Tracked events include:
 
 ### Learning Activity
 
+Tracks:
+
 - Course viewed
 - Course started
 - Course completed
 
-These insights helped improve user engagement, optimize platform performance, and enhance user experiences.
+### Astrologer Activity
+
+Tracks:
+
+- Availability updated
+- Consultation accepted
+- Puja booking received
+- Earnings viewed
+- Reports accessed
+
+These insights helped optimize engagement, improve service delivery, and enhance user experiences.
 
 ---
 
@@ -197,28 +266,32 @@ These insights helped improve user engagement, optimize platform performance, an
 
 ### Increased User Engagement
 
-Multiple service offerings encouraged users to spend more time on the platform through consultations, products, and learning content.
+The combination of consultations, spiritual services, learning content, and shopping experiences significantly improved platform activity.
 
 ### Better Accessibility
 
-Google Meet integration made spiritual sessions and pujas accessible from any location.
+Google Meet integration enabled users to attend puja sessions remotely from any location.
 
-### Improved Learning Experience
+### Improved Astrologer Productivity
 
-Users gained easy access to structured educational content related to astrology.
+Dedicated dashboards and reporting tools simplified consultation and service management.
 
 ### Enhanced Revenue Opportunities
 
-The eCommerce section contributed additional revenue streams through product sales.
+Integrated eCommerce and consultation services created multiple revenue streams.
+
+### Better Scheduling Efficiency
+
+Real-time availability management reduced conflicts and improved booking experiences.
 
 ### Smooth User Experience
 
-Integrated workflows enabled users to seamlessly navigate between consultations, products, and learning resources.
+Integrated workflows enabled seamless movement between consultations, learning, shopping, and spiritual services.
 
 ---
 
 ## Conclusion
 
-Astrovigya successfully combines traditional astrology with modern technology to deliver a complete spiritual and learning ecosystem. Through personalized consultations, online puja services, integrated shopping experiences, and educational content, the platform creates a holistic experience for users seeking guidance and knowledge.
+Astrovigya transforms traditional astrology services into a modern digital ecosystem by connecting users and astrologers through dedicated applications and intelligent experiences.
 
-By leveraging real-time communication, secure payment systems, and scalable cloud infrastructure, Astrovigya provides an engaging and reliable platform for astrology enthusiasts worldwide.
+By combining real-time communication, secure payment systems, personalized astrology tools, educational resources, and scalable cloud infrastructure, Astrovigya delivers a comprehensive platform that empowers users in their spiritual journey while enabling astrologers to grow and manage their services efficiently.
