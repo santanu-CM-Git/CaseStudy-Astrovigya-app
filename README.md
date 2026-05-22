@@ -22,20 +22,39 @@ The platform connects users and astrologers through real-time communication whil
 
 ## Problem
 
-Traditional astrology services often lack accessibility, flexibility, and centralized management systems. Users face difficulties in connecting with astrologers, scheduling consultations, participating in spiritual services remotely, and accessing personalized guidance conveniently.
+### Limited Accessibility to Astrology Services
+Traditional astrology services often create accessibility challenges for users due to location constraints and dependency on physical interactions. Users may find it difficult to access personalized guidance and spiritual services whenever needed.
 
-Astrologers also encounter challenges in:
+### Consultation Scheduling Difficulties
+Managing astrology consultations through traditional methods can lead to scheduling conflicts and delays. Users require a more flexible system that allows convenient appointment booking and service management.
 
-- Managing consultations
-- Handling service schedules
-- Tracking earnings and reports
-- Managing availability
-- Maintaining user interactions efficiently
+### Lack of Remote Spiritual Services
+Participating in spiritual services such as pujas often requires physical presence, limiting accessibility for users from different locations. A remote and convenient participation experience was required.
 
-The ecosystem required two dedicated applications:
+### Absence of Centralized User Experience
+Users needed a unified platform where consultations, astrology insights, spiritual products, and learning resources could be accessed in one place instead of using multiple disconnected systems.
 
-- **Astrovigya User App**
-- **Astrovigya Astrologer App**
+### Consultation Management Challenges
+Astrologers often face difficulties managing increasing numbers of consultation requests efficiently. Handling multiple sessions manually can reduce productivity and service quality.
+
+### Service Schedule Management
+Managing appointment schedules and service timings manually can create booking conflicts and reduce operational efficiency.
+
+### Earnings and Report Tracking
+Astrologers need a structured system to monitor earnings, consultation revenue, and performance reports. Without centralized tracking, financial visibility becomes difficult.
+
+### Availability Management
+Maintaining accurate service availability is essential for preventing booking conflicts and improving user experiences. Dynamic schedule management was required.
+
+### User Interaction Management
+Managing continuous communication and interactions with users manually becomes challenging as platform activity increases. Efficient tools were needed to simplify user engagement workflows.
+
+### Requirement for Dedicated Applications
+To address these challenges effectively, the ecosystem required two dedicated applications:
+
+- **Astrovigya User App** – Designed for users seeking astrology consultations, spiritual services, astrology products, and educational content.
+
+- **Astrovigya Astrologer App** – Designed specifically for astrologers to manage consultations, schedules, availability, earnings, reports, and professional activities.
 
 ---
 
