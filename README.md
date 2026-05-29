@@ -88,7 +88,6 @@ To address these challenges effectively, the ecosystem required two dedicated ap
 
 ### Cloud Infrastructure
 
-- AWS S3
 - AWS EC2
 - AWS Elastic Load Balancer
 
