@@ -69,10 +69,9 @@ To address these challenges effectively, the ecosystem required two dedicated ap
 
 ### Backend
 
-- Node.js
-- MongoDB
+- Laravel
+- MYSql
 - REST APIs
-- AWS EC2
 
 ### Real-Time Communication
 
